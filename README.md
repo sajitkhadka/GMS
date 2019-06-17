@@ -3,9 +3,13 @@
 git clone https://github.com/sajitkhadka/GMS.git
 # Contribute using following.
 git init
+
 git add .
+
 git commit -m "message"
+
 git remote add origin https://github.com/sajitkhadka/GMS.git
+
 git push -u origin master
 
 # GYM Management System and Scheduler
