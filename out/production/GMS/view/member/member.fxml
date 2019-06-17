@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
@@ -7,35 +8,69 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="1037.0" styleClass="\@/css/member/member.css" stylesheets="@../../css/member/member.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gms.controller.MemberController">
+<BorderPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="772.0" styleClass="\@/css/member/member.css" stylesheets="@../../css/member/member.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gms.controller.member.MemberController">
    <center>
-      <VBox prefHeight="655.0" prefWidth="594.0" styleClass="parent" BorderPane.alignment="CENTER" />
+      <VBox prefHeight="655.0" prefWidth="594.0" styleClass="parent" BorderPane.alignment="CENTER" fx:id="rootPane">
+
+         <!--For the center -->
+
+      </VBox>
    </center>
    <left>
-      <VBox prefHeight="632.0" prefWidth="267.0" styleClass="sidebar" BorderPane.alignment="CENTER">
+      <VBox prefHeight="706.0" prefWidth="176.0" styleClass="sidebar" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: #00A2D3;" text="Member Panel" textFill="#fcfcfc">
+            <Label prefHeight="90.0" prefWidth="267.0" style="-fx-background-color: #00A2D3;" text="Member Panel" textFill="#fcfcfc">
                <font>
-                  <Font name="Ebrima" size="18.0" />
+                  <Font name="Ebrima" size="20.0" />
                </font>
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <HBox>
+            <HBox styleClass="btns" onMouseClicked="#homeClicked">
                <children>
-                  <Label text="DashBoard" textFill="WHITE" HBox.hgrow="ALWAYS">
+                  <Label text="Home" textFill="WHITE" HBox.hgrow="ALWAYS" >
                      <HBox.margin>
-                        <Insets left="10.0" top="10.0" />
+                        <Insets bottom="10.0" left="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox styleClass="btns" onMouseClicked="#profileClicked">
+               <children>
+                  <Label text="Profile" textFill="WHITE" HBox.hgrow="ALWAYS" >
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="20.0" top="10.0" />
                      </HBox.margin>
                   </Label>
                </children>
             </HBox>
-            <HBox>
+            <HBox styleClass="btns" onMouseClicked="#preferencesClicked">
                <children>
-                  <Label text="DashBoard" textFill="WHITE" HBox.hgrow="ALWAYS">
+                  <Label text="Preferences" textFill="WHITE" HBox.hgrow="ALWAYS" >
                      <HBox.margin>
-                        <Insets left="10.0" top="10.0" />
+                        <Insets bottom="10.0" left="20.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox styleClass="btns" onMouseClicked="#settingsClicked">
+               <children>
+                  <Label text="Settings" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="20.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox styleClass="btns" onMouseClicked="#aboutClicked">
+               <children>
+                  <Label text="About" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="20.0" top="10.0" />
                      </HBox.margin>
                   </Label>
                </children>

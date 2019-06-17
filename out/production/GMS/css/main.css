@@ -1,5 +1,5 @@
 #container{
-        -fx-background-image: url("/images/bLogin.jpg");
+        -fx-background-image: url("/images/background.jpg");
         -fx-background-size: cover;
 }
 
@@ -9,3 +9,4 @@
  -fx-font-weight: 700;
  -fx-cursor: hand;
 }
+

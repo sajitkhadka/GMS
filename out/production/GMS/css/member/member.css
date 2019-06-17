@@ -1,8 +1,26 @@
 .parent{
-    -fx-background-color: #fff;
 }
 
 .sidebar{
     -fx-background-color:#333645;
+
 }
 
+#container{
+    -fx-background-image: url("/images/background.jpg");
+    -fx-background-size: cover;
+}
+.btns{
+    -fx-background-color: transparent;
+}
+.btns:hover{
+    -fx-background-color: #202332;
+    -fx-cursor: hand;
+}
+.profilePicture{
+    -fx-background-radius: 30;
+    -fx-background-image:url(‘Tulips.jpg’);
+    -fx-border-radius: 30;
+    -fx-border-width:5;
+    -fx-border-color:blue;
+}

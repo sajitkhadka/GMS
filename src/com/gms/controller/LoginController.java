@@ -25,8 +25,8 @@ public class LoginController{
         Stage memberStage = new Stage();
         memberStage.getIcons().add(new Image("/images/logo.png"));
 
-        memberStage.setScene(new Scene(root, 421, 380));
-        memberStage.setResizable(false);
+        memberStage.setScene(new Scene(root, 900, 600));
+        memberStage.setResizable(true);
 
          memberStage.show();
     }
