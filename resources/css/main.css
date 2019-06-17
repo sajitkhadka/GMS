@@ -1,0 +1,11 @@
+#container{
+        -fx-background-image: url("/images/bLogin.jpg");
+        -fx-background-size: cover;
+}
+
+#loginButton{
+ -fx-background-color: #aa2a2a;
+ -fx-text-fill: white ;
+ -fx-font-weight: 700;
+ -fx-cursor: hand;
+}

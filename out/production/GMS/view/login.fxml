@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.gms.controller.LoginController" fx:id="container" prefHeight="355.0" prefWidth="421.0" stylesheets="@/css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="111.0" layoutY="156.0" prefHeight="31.0" prefWidth="200.0" promptText="User Name" styleClass="textField" />
+      <TextField layoutX="111.0" layoutY="215.0" prefHeight="31.0" prefWidth="200.0" promptText="Password" styleClass="textField" />
+      <Button fx:id="loginButton" onAction="#login" layoutX="111.0" layoutY="271.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="200.0" text="Login" />
+      <ImageView fitHeight="92.0" fitWidth="151.0" layoutX="156.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

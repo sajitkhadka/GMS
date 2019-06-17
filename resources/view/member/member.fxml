@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="1037.0" styleClass="\@/css/member/member.css" stylesheets="@../../css/member/member.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gms.controller.MemberController">
+   <center>
+      <VBox prefHeight="655.0" prefWidth="594.0" styleClass="parent" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <VBox prefHeight="632.0" prefWidth="267.0" styleClass="sidebar" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: #00A2D3;" text="Member Panel" textFill="#fcfcfc">
+               <font>
+                  <Font name="Ebrima" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <HBox>
+               <children>
+                  <Label text="DashBoard" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="DashBoard" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children></VBox>
+   </left>
+</BorderPane>
