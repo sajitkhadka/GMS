@@ -1,7 +1,16 @@
 # GMS
-GYM Management System and Scheduler
+# You can clone the git repo using the command
+git clone https://github.com/sajitkhadka/GMS.git
+# Contribute using following.
+git init
+git add .
+git commit -m "message"
+git remote add origin https://github.com/sajitkhadka/GMS.git
+git push -u origin master
 
-Project Description
+# GYM Management System and Scheduler
+
+# Project Description
 Gym management and Scheduler (GMS) is an app designed to ease the schedule and payment of a gym member. It encompasses features that a person in a gym could use. 
 
 The concept is that the application will schedule the time for the member and tracks each day’s attendance and daily gym routine (for eg, bar curl for Sunday) for every member and they can change their schedule. It has a feature to check each month’s payments and will get timely notification for payment due for each member.
